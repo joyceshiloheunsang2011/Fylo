@@ -1,0 +1,253 @@
+body{
+    font-family: sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 50px auto;
+}
+header img{
+    margin-right: 50%;
+    margin-left: 70px;
+}
+header a{
+    margin: 20px;
+    text-decoration: none;
+    color: grey;
+}
+/* first part */
+.image-area img{
+    width: 100%;
+}
+.form-part{
+    margin-left: 170px;
+}
+.form-part p{
+    /* margin-right: 30%; */
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: grey;
+    font-size: 16px;
+    line-height: 1.4;
+}
+.form-part h1{
+    margin-right: 20%;
+}
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+.form-part input[type=text]{
+    padding: 8px;
+    border: 1px grey solid;
+    width: 300px;
+    height: 25px;
+}
+::placeholder{
+    color: rgb(206, 206, 206);
+    font-size: 12px;
+}
+.form-part button{
+    margin-left: 5px;
+    padding: 15px;
+    width: 200px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+/* second part */
+section{
+    background-color: hsl(0, 0%, 98%);
+}
+.image-part img{
+    width: 100%;
+    position: relative;
+    top: 20px;
+}
+.container{
+    display: flex;
+}
+.image-arena img{
+    width: 500px;
+    height: 400px;
+    margin-top: 80px;
+}
+.text-arena{
+    margin-top: 60px;
+}
+.text-arena p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    color: grey;
+}
+h3{
+    text-decoration: hsl(170, 45%, 43%) underline solid 1px;
+    color: hsl(170, 45%, 43%);
+}
+.picture-part h4{
+    margin-top: 10px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.picture-part{
+    padding: 20px;
+    width: 50%;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+}
+.avatar img{
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    margin-right: 10px;
+}
+.avatar{
+    display: flex;
+    align-items: center;
+}
+.picture-part h6{
+    color: gray;
+    font-size: 12px;
+}
+/* third part */
+.footer{
+    background-color:  hsl(238, 22%, 44%);
+    color: white;
+    display: flex;
+    padding: 50px 50px 30px 100px;
+}
+.footer p{
+    margin-right: 47%;
+    line-height: 1.3;
+    margin-top: 20px;
+}
+.footer input[type=text]{
+    padding: 8px;
+    border: 1px grey solid;
+    width: 400px;
+    height: 25px;
+}
+.footer button{
+    margin-top: 20px;
+    padding: 15px;
+    width: 200px;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    border-radius: 3px;
+}
+.form-part2{
+    margin-right: 100px;
+}
+/* fourth part */
+.icon-part1{
+    display: flex;
+    align-items: center;
+}.footer2{
+    background-color: hsl(243, 87%, 12%);
+    display: flex;
+    /* gap: 300px; */
+    padding-top: 100px;
+    padding-left: 100px;
+    color: white;
+}
+
+.footer2 img{
+    margin-bottom: 5px;
+}
+.footer2 h1{
+    color: white;
+    font-size: 50px;
+}
+.footer2 a{
+    color: white;
+    text-decoration: none;
+}
+.about-us{
+    line-height: 2.8;
+}
+.contact-us{
+    padding-top: 30px;
+    line-height: 2.8;
+}
+.icon-part1 h4, .icon-part2 h4{
+    display: inline;
+    margin: 20px;
+}
+
+@media (max-width:768px){
+    header img{
+        margin-right: 100px;
+    }
+    .main-container{
+        flex-direction: column-reverse;
+    }
+    .form-part{
+        text-align: center;
+    }
+    .form-part p{
+        width: 50%;
+        margin: 40px 30px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+        width: 95%;
+        margin: auto;
+    }
+    .form-part input[type=text]{
+        width: 350px;
+    }
+    .form-part button{
+        margin-top: 20px;
+        width: 350px;
+        margin-bottom: 40px;
+    }
+    .container{
+        flex-direction: column-reverse;
+        width: 90%;
+        margin: auto;
+    }
+    .text-arena p{
+        margin-top: 30px;
+    }
+    .see-fylo{
+        text-align: center;
+    }
+    .picture-part{
+        margin-left: 150px;
+    }
+    .footer{
+        flex-direction: column;
+        text-align: center;
+    }
+    .footer p{
+        width: 70%;
+        margin: 20px auto;
+    }
+    .footer input[type=text],.footer button{
+        width: 400px;
+        margin-left: 80px;
+    }
+    .footer2{
+        flex-direction: column;
+    }
+    .about-us a{
+        margin-top: 30px;
+    }
+    .icon-part1{
+        margin-top: 20px;
+    }
+}
