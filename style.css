@@ -1,5 +1,6 @@
 body{
     font-family: sans-serif;
+    background-color: red;
 }
 *{
     margin: 0;
@@ -25,7 +26,7 @@ header a{
     width: 100%;
 }
 .form-part{
-    margin-left: 100px;
+    margin-left: 70px;
 }
 .form-part p{
     /* margin-right: 30%; */
